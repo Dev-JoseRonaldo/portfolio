@@ -1,0 +1,104 @@
+#portfolio .portfolio {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#portfolio .portfolio-header h1 {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+#portfolio .all-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#portfolio .project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#portfolio .project-info {
+  padding: 30px;
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(60deg, #5a10b5 0%, #002349 100%);
+  color: white;
+}
+
+#portfolio .project-info h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+#portfolio .project-info h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#portfolio .project-img {
+  flex-basis: 50%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#portfolio .project-img:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.7;
+}
+#portfolio .project-img img {
+  transition: 0.5s ease transform;
+}
+#portfolio .project-item:hover .project-img img {
+  transform: scale(1.1);
+}
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+  #portfolio .project-item {
+    flex-direction: row;
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  #portfolio .all-projects .project-info {
+    height: 100%;
+  }
+  #portfolio .all-projects .project-img {
+    height: 100%;
+  }
+  #portfolio .project-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
