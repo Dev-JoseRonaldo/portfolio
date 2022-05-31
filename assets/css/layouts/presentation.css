@@ -1,5 +1,4 @@
 #presentation {
-  background-image: url(../img/background.jpeg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -61,17 +60,7 @@
 #presentation h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
-#presentation::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: -1;
-}
+
 
 /* Keyframes */
 
