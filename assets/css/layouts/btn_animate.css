@@ -21,17 +21,26 @@
 .button__span::before {
   content: '';
   position: absolute;
-  width: 1%;
+  width: 2%;
   height: 500%;
   background-color: var(--background-color);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-60deg);
-  transition: all ease-in-out 0.3s;
+  transition: all ease 0.3s;
 }
-
+/*
+.button__span--right::before {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+*/
 .button--animate:hover .button__span::before {
   transform: translate(-50%, -50%) rotate(-90deg);
   width: 100%;
   background-color: var(--primary-color);
 }
+/*
+.button--animate:hover .button__span--right::before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+*/

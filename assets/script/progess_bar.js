@@ -33,6 +33,38 @@ const skills = [
   }
 ]
 
+const about = document.querySelector('.about')
+const container = document.querySelector('.about__skill-container')
+
+for (let i = 0; i < skills.length; i++) {
+  container.innerHTML += `
+         <div class="skill__progress" id="skill__progress-${i}">
+            <div class="skill__info">
+              <h6 class="skill__title">${skills[i].nome}</h6>
+              <p class="skill__percent">0%</p>
+            </div>
+            <div class="skill__progress-bar">
+              <div class="skill__progressing"></div>
+            </div>
+          </div>
+        `
+}
+
+window.addEventListener('scroll', function checkPos() {
+  const sectionPos = about.getBoundingClientRect().top
+  const screenPos = window.screen.height
+  if (sectionPos < screenPos - 400) {
+    showSkills()
+    this.removeEventListener('scroll', checkPos)
+  }
+})
+
+function showSkills() {
+  for (var i = 0; i < skills.length; i++) {
+    start(i)
+  }
+}
+
 function start(i) {
   var skillPercent = document.querySelector(
     `#skill__progress-${i} .skill__percent`
@@ -54,24 +86,4 @@ function start(i) {
     }
     requestAnimationFrame(startProgress)
   }
-}
-
-var container = document.querySelector('.about__skill-container')
-
-for (let i = 0; i < skills.length; i++) {
-  container.innerHTML += `
-         <div class="skill__progress" id="skill__progress-${i}">
-            <div class="skill__info">
-              <h6 class="skill__title">${skills[i].nome}</h6>
-              <p class="skill__percent">${skills[i].percent}%</p>
-            </div>
-            <div class="skill__progress-bar">
-              <div class="skill__progressing"></div>
-            </div>
-          </div>
-        `
-}
-
-for (var i = 0; i < skills.length; i++) {
-  start(i)
 }
