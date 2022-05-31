@@ -49,11 +49,3 @@ p {
   /*background-color: var(--primary-color);*/
   /*border: 1px solid var(--primary-color);*/
 }
-
-.container {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
