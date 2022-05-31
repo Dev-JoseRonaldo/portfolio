@@ -1,0 +1,37 @@
+.button--animate {
+  position: relative;
+  background: transparent;
+  user-select: none;
+  color: white;
+  overflow: hidden;
+  display: inline-block;
+}
+.button__span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+  z-index: -1;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.button__span::before {
+  content: '';
+  position: absolute;
+  width: 1%;
+  height: 500%;
+  background-color: var(--background-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all ease-in-out 0.3s;
+}
+
+.button--animate:hover .button__span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  background-color: var(--primary-color);
+}
