@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 4.8rem;
+  margin-bottom: 150px;
+  max-width: 1400px;
 }
 
 .home__left-side {
