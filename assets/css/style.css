@@ -1,7 +1,8 @@
 @import url(./base/reset.css);
 @import url(./base/global.css);
 @import url(./layouts/presentation.css);
-@import url(./layouts/portfolio.css);
+@import url(./layouts/projects.css);
+@import url(./layouts/filter.css);
 @import url(./layouts/header.css);
 @import url(./layouts/home.css);
 @import url(./layouts/about.css);
