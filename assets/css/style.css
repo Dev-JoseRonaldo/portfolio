@@ -1,11 +1,10 @@
 @import url(./base/reset.css);
 @import url(./base/global.css);
-@import url(./layouts/presentation.css);
 @import url(./layouts/projects/projects.css);
 @import url(./layouts/projects/filter.css);
 @import url(./layouts/projects/card.css);
-@import url(./layouts/header.css);
-@import url(./layouts/home.css);
-@import url(./layouts/about.css);
+@import url(./layouts/header/header.css);
+@import url(./layouts/home/home.css);
+@import url(./layouts/about/about.css);
 @import url(./layouts/btn_animate.css);
-@import url(./layouts/progress_bar.css);
+@import url(./layouts/about/progress_bar.css);
