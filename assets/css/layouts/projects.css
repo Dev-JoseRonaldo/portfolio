@@ -16,3 +16,63 @@
   color: var(--text-white);
   margin-bottom: 3.6rem;
 }
+
+.items__box {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border: 2px solid var(--text-white);
+  border-radius: 20px;
+}
+
+.project__box-img {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__img {
+  width: 98%;
+  height: 98%;
+  object-fit: cover;
+  border-radius: 20px 20px 10px 10px;
+}
+
+.project__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /*border: 1px solid var(--text-white);*/
+  gap: 2rem;
+}
+
+.project__title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+.project__stack {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.stack__icon {
+  font-size: 2.4rem;
+}
+
+.project__date-box {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.date-box__date {
+  font-size: 1.2rem;
+  margin: 1.6rem 0.5rem 1rem 0;
+}

@@ -54,11 +54,17 @@ window.addEventListener('scroll', function checkPos() {
   const sectionPos = about.getBoundingClientRect().top
   const screenPos = window.screen.height
   if (sectionPos < screenPos - 400) {
+    console.log(window.screen.height)
     showSkills()
     this.removeEventListener('scroll', checkPos)
   }
 })
-
+const sectionPos = about.getBoundingClientRect().top
+console.log(sectionPos)
+console.log(window.screen.height)
+if (sectionPos < window.screen.height) {
+  showSkills()
+}
 function showSkills() {
   for (var i = 0; i < skills.length; i++) {
     start(i)
