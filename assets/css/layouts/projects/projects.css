@@ -23,3 +23,15 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5rem;
 }
+
+.button--small {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 14px;
+  margin-top: 2rem;
+}
+
+#hidden-more {
+  display: none;
+}

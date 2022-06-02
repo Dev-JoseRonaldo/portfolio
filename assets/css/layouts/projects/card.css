@@ -1,12 +1,20 @@
 .items__box {
   width: 100%;
-  display: inline-block;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: start;
   border: 2px solid var(--text-white);
   border-radius: 20px;
+}
+
+.items__box:nth-child(1),
+.items__box:nth-child(2),
+.items__box:nth-child(3),
+.items__box:nth-child(4),
+.items__box:nth-child(5),
+.items__box:nth-child(6) {
+  display: flex;
 }
 
 .project__box-img {
