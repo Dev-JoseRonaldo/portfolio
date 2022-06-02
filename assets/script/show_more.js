@@ -18,7 +18,6 @@ loadMoreBtn.onclick = () => {
 hiddenMoreBtn.onclick = () => {
   let boxes = [...document.querySelectorAll('.items__box')]
   for (let i = boxes.length - 1; i >= 6; i--) {
-    console.log(boxes[i])
     boxes[i].style.display = 'none'
   }
   currentItem = 6
