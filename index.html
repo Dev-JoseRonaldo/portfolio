@@ -99,7 +99,7 @@
       </section>
 
       <section id="projects" class="projects">
-        <h1 class="projects__title">Projetos</h1>
+        <h2 class="projects__title">Projetos</h2>
 
         <div class="projects__filter">
           <div class="filter__icon-box">
@@ -820,43 +820,102 @@
         </a>
       </section>
 
-      <section class="contato">
-        <form method="post">
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Name"
-            required
-          />
+      <section class="contact">
+        <div class="contact__title-box">
+          <h6 class="contact__subtitle">Tem um projeto em mente?</h6>
+          <h2 class="contact__title">Entre em contato!</h2>
+        </div>
 
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Email"
-            required
-          />
+        <div class="contact-content">
+          <div class="contact__left-side">
+            <h3 class="contact__info-title">Fale comigo!</h3>
+            <p class="contact__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              omnis dolor nulla quas, sit.
+            </p>
+            <div class="contact__info">
+              <div class="info-box">
+                <i class="info__icon fa-solid fa-phone"></i>
+                <p class="info__text">
+                  <span class="info__span">Ligue pra mim</span>
+                  +55 81989160802
+                </p>
+              </div>
 
-          <input
-            type="text"
-            name="subject"
-            id="subject"
-            placeholder="Subject"
-            required
-          />
+              <div class="info-box">
+                <i class="info__icon fa-solid fa-location-dot"></i>
+                <p class="info__text">
+                  <span class="info__span">Localização</span>
+                  Recife - PE
+                </p>
+              </div>
+              <div class="info-box">
+                <i class="info__icon fa-solid fa-envelope"></i>
+                <p class="info__text">
+                  <span class="info__span">Email</span>
+                  dev.joseronaldo@gmail.com
+                </p>
+              </div>
+              <div class="info-box">
+                <i class="info__icon fa-solid fa-user"></i>
+                <p class="info__text">
+                  <span class="info__span">Socials</span>
+                </p>
+                <div class="contact__socials">
+                  <a href="">
+                    <i class="socials__icons fa-brands fa-github"></i>
+                  </a>
+                  <a href="">
+                    <i class="socials__icons fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="">
+                    <i class="socials__icons fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="">
+                    <i class="socials__icons fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <textarea
-            id="message"
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Message"
-            required
-          ></textarea>
+          <form method="post">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
 
-          <button id="btn">Send Email</button>
-        </form>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+            ></textarea>
+
+            <button id="btn">Send Email</button>
+          </form>
+        </div>
       </section>
     </main>
 

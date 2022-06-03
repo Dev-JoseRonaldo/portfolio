@@ -34,6 +34,10 @@ p {
   letter-spacing: 0.05rem;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 .button {
   color: var(--text-white);
   font-size: 2rem;
