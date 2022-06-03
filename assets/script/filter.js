@@ -2,12 +2,9 @@ function change() {
   var boxCheckbox = document.querySelectorAll(
     ".filter__checkbox input[type='checkbox']"
   )
-  var boxFilterTwo = document.querySelectorAll(
-    ".filterTwo input[type='checkbox']"
-  )
+
   var filters = {
-    filterCheckbox: getClassOfCheckedCheckboxes(boxCheckbox),
-    filterTwo: getClassOfCheckedCheckboxes(boxFilterTwo)
+    filterCheckbox: getClassOfCheckedCheckboxes(boxCheckbox)
   }
 
   filterResults(filters)
@@ -32,6 +29,7 @@ function getClassOfCheckedCheckboxes(checkboxes) {
 function filterResults(filters) {
   let loadMoreBtn = document.querySelector('#load-more')
   let hiddenMoreBtn = document.querySelector('#hidden-more')
+  let errorText = document.querySelector('.project__error-box')
   var projects = document.querySelectorAll('.items__box')
   var hiddenProjects = []
 
@@ -41,6 +39,7 @@ function filterResults(filters) {
 
   if (filters.filterCheckbox.length <= 0) {
     hiddenMoreBtn.style.display = 'inline-block'
+    errorText.style.display = 'none'
   }
   for (var i = 0; i < projects.length; i++) {
     var el = projects[i]
@@ -50,23 +49,6 @@ function filterResults(filters) {
 
       for (var j = 0; j < filters.filterCheckbox.length; j++) {
         var filter = filters.filterCheckbox[j]
-
-        if (el.classList.contains(filter)) {
-          isHidden = false
-          break
-        }
-      }
-
-      if (isHidden) {
-        hiddenProjects.push(el)
-      }
-    }
-
-    if (filters.filterTwo.length > 0) {
-      var isHidden = true
-
-      for (var j = 0; j < filters.filterTwo.length; j++) {
-        var filter = filters.filterTwo[j]
 
         if (el.classList.contains(filter)) {
           isHidden = false
@@ -94,4 +76,8 @@ function filterResults(filters) {
 
   loadMoreBtn.style.display = 'none'
   hiddenMoreBtn.style.display = 'none'
+
+  if (projects.length === hiddenProjects.length) {
+    errorText.style.display = 'flex'
+  }
 }

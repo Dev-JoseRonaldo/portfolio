@@ -24,6 +24,17 @@
   gap: 5rem;
 }
 
+.project__error-box {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.8rem;
+}
+
+.project__error-text {
+  font-size: 2.8rem;
+}
+
 .button--small {
   font-size: 1.2rem;
   font-weight: 500;
