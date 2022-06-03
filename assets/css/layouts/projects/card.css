@@ -1,5 +1,6 @@
 .items__box {
   width: 100%;
+  height: 443px;
   /* max-width: 300px;*/
   display: none;
   flex-direction: column;
@@ -50,7 +51,17 @@
   margin-top: 0.8rem;
 }
 
-.project__stack {
+.projet__text {
+  display: none;
+}
+
+.slack__title {
+  display: none;
+}
+.project__buttons {
+  display: none;
+}
+.slack__icons-box {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -67,4 +78,69 @@
 .date-box__date {
   font-size: 1.2rem;
   margin: 1.6rem 0.5rem 1rem 0;
+}
+
+/* Efeito hover do card */
+
+.items__box:hover {
+  position: relative;
+}
+
+.items__box:hover .project__info {
+  height: 100%;
+  justify-content: space-around;
+}
+.items__box:hover .project__title {
+  margin-top: 2.8rem;
+  font-weight: 500;
+}
+
+.items__box:hover .projet__text {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.4rem;
+  opacity: 0.9;
+  width: 90%;
+  margin-bottom: 2.5rem;
+}
+
+.items__box:hover .project__box-img {
+  height: inherit;
+}
+.items__box:hover .projects__img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+}
+
+.items__box:hover .project__info {
+  position: absolute;
+}
+
+.items__box:hover .slack__title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.items__box:hover .project__buttons {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+}
+
+.items__box:hover .projects-hover__button {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.items__box:hover .project__date-box {
+  display: none;
 }

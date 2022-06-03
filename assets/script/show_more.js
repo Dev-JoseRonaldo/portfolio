@@ -5,7 +5,7 @@ let currentItem = 6
 loadMoreBtn.onclick = () => {
   let boxes = [...document.querySelectorAll('.items__box')]
   for (var i = currentItem; i < currentItem + 6 && i < boxes.length; i++) {
-    boxes[i].style.display = 'inline-block'
+    boxes[i].style.display = 'flex'
   }
   currentItem += 6
 

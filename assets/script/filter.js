@@ -81,7 +81,7 @@ function filterResults(filters) {
   }
 
   for (var i = 0; i < projects.length; i++) {
-    projects[i].style.display = 'block'
+    projects[i].style.display = 'flex'
   }
 
   if (hiddenProjects.length <= 0) {
