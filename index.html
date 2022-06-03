@@ -878,43 +878,56 @@
               </div>
             </div>
           </div>
+          <div class="contact__right-side">
+            <form class="contact__form" method="post">
+              <div class="form__first-line">
+                <input
+                  class="form__name"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nome"
+                  required
+                />
 
-          <form method="post">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            />
+                <input
+                  class="form__email"
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
 
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
+              <input
+                class="form__subject"
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Assunto"
+                required
+              />
 
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              placeholder="Subject"
-              required
-            />
+              <textarea
+                class="form__message"
+                id="message"
+                name="message"
+                cols="30"
+                rows="20"
+                placeholder="Mensagem"
+                required
+              ></textarea>
 
-            <textarea
-              id="message"
-              name="message"
-              cols="30"
-              rows="10"
-              placeholder="Message"
-              required
-            ></textarea>
-
-            <button id="btn">Send Email</button>
-          </form>
+              <button
+                class="button button--animate button--small form__button"
+                id="btn"
+              >
+                Enviar Email
+                <span class="button__span"></span>
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
