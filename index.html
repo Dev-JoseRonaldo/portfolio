@@ -14,12 +14,12 @@
   </head>
 
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="header__logo">JR</div>
       <nav class="header__navegation">
         <ul class="header__list">
           <li class="header__item">
-            <a class="header__link" href="#home">
+            <a class="header__link" href="#">
               <i class="fa-solid fa-house"></i>
               Home
             </a>
@@ -59,6 +59,11 @@
         <div class="home__left-side">
           <h2 class="home__span">JOSE RONALDO</h2>
           <h1 class="home__title">FRONTEND DEVELOPER</h1>
+          <img
+            class="home__img-mobile"
+            src="./assets/img/home_img.png"
+            alt=""
+          />
           <p class="home__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
             harum magni esse rerum? Perferendis fugiat porro officiis explicabo
@@ -814,7 +819,6 @@
         <a
           id="load-more"
           class="button projects__button button--animate button--small"
-          href="#contato"
         >
           Carregar mais
           <span class="button__span button__span"></span>
@@ -822,7 +826,7 @@
         <a
           id="hidden-more"
           class="button projects__button button--animate button--small"
-          href="#contato"
+          href="#projects"
         >
           Mostrar menos
           <span class="button__span button__span"></span>
@@ -945,7 +949,7 @@
       <nav class="footer__navegation">
         <ul class="footer__list">
           <li class="list__item">
-            <a class="list__link" href="#home">Home</a>
+            <a class="list__link" href="#">Home</a>
           </li>
           <li class="list__item">
             <a class="list__link" href="#about">Sobre mim</a>

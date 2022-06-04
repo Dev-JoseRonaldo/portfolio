@@ -47,3 +47,9 @@
 #hidden-more {
   display: none;
 }
+
+@media (max-width: 900px) {
+  .projects {
+    margin-bottom: 8rem;
+  }
+}

@@ -34,3 +34,9 @@
 .header__link:hover {
   color: var(--primary-color);
 }
+
+@media (max-width: 900px) {
+  .header {
+    margin-bottom: 5rem;
+  }
+}

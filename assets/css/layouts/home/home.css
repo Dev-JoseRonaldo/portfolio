@@ -29,7 +29,7 @@
   font-size: 1.6rem;
   font-weight: 400;
   color: var(--text-white);
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 
 .home__right-side {
@@ -40,6 +40,10 @@
   max-width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.home__img-mobile {
+  display: none;
 }
 
 /* Responsividade */
@@ -73,5 +77,41 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
+  .home__left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+  }
+
+  .home__title {
+    margin-bottom: 5rem;
+  }
+
+  .home__img {
+    display: none;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .home__img-mobile {
+    display: inline-block;
+    width: 395px;
+    margin-bottom: 5rem;
+  }
+
+  .home__text {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 3.6rem;
+  }
+
+  .home {
+    justify-content: center;
+    padding: 0 4.8rem;
+    margin-bottom: 150px;
+  }
 }
