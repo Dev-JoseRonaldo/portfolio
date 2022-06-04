@@ -41,6 +41,7 @@ function filterResults(filters) {
     hiddenMoreBtn.style.display = 'inline-block'
     errorText.style.display = 'none'
   }
+
   for (var i = 0; i < projects.length; i++) {
     var el = projects[i]
 
@@ -79,5 +80,9 @@ function filterResults(filters) {
 
   if (projects.length === hiddenProjects.length) {
     errorText.style.display = 'flex'
+  }
+
+  if (projects.length - hiddenProjects.length > 0) {
+    errorText.style.display = 'none'
   }
 }
