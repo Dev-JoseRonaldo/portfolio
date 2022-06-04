@@ -1,0 +1,25 @@
+.floating-icon {
+  width: 4rem;
+  height: 4rem;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+}
+
+.floating-icon__whatsapp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--whatsapp-color);
+  border-radius: 50%;
+  font-size: 1.6rem;
+  transition: all 0.2s ease;
+}
+
+.floating-icon__whatsapp:hover {
+  transform: scale(1.1);
+}
