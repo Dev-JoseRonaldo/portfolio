@@ -1,6 +1,6 @@
 @import url(./base/reset.css);
 @import url(./base/global.css);
-@import url(./layouts/btn_animate.css);
+@import url(./layouts/components/btn_animate.css);
 @import url(./layouts/header/header.css);
 @import url(./layouts/home/home.css);
 @import url(./layouts/about/about.css);
@@ -9,3 +9,4 @@
 @import url(./layouts/projects/filter.css);
 @import url(./layouts/projects/card.css);
 @import url(./layouts/contact/contact.css);
+@import url(./layouts/footer/footer.css);

@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  width: 100%;
+  height: 22rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0 0.5rem;
+  justify-content: space-between;
+
+  background-color: #080114;
+  color: var(--text-white);
+  /*border-top: 1px solid var(--text-white); */
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.list__link {
+  color: var(--text-white);
+  font-size: 1.3rem;
+}
+.list__link:hover {
+  color: var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.footer__title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer__copy {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.copy__span {
+  color: var(--primary-color);
+  font-weight: 500;
+}
