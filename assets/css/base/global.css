@@ -39,19 +39,4 @@ a {
   color: white;
   text-decoration: none;
 }
-.button {
-  color: var(--text-white);
-  font-size: 2rem;
-  font-weight: 500;
 
-  padding: 12px 36px;
-  border: none;
-  border-radius: 20px;
-  transition: all ease-in-out 0.3s;
-}
-
-.button:hover {
-  color: var(--background-color);
-  /*background-color: var(--primary-color);*/
-  /*border: 1px solid var(--primary-color);*/
-}

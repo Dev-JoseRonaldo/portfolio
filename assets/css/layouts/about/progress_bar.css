@@ -59,3 +59,15 @@
   justify-content: space-between;
   width: 100%;
 }
+
+/* Responsividade */
+@media (max-width: 1240px) {
+  .about__skill-container {
+    min-width: 430px;
+
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 1150px) {
+}

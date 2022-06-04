@@ -41,3 +41,37 @@
   height: 100%;
   object-fit: contain;
 }
+
+/* Responsividade */
+
+@media (max-width: 1240px) {
+  .home__left-side {
+    max-width: 550px;
+  }
+
+  .home__title {
+    font-size: 3.8rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .home__span {
+    font-size: 2.9rem;
+    margin-bottom: 1.2rem;
+  }
+  .home__text {
+    font-size: 1.4rem;
+    margin-bottom: 3.8rem;
+  }
+
+  .home__right-side {
+    max-width: 395px;
+  }
+}
+@media (max-width: 1150px) {
+  .home__left-side {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 1024px) {
+}
