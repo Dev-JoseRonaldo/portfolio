@@ -28,4 +28,11 @@
     font-size: 1.6rem;
     padding: 10px 29px;
   }
+
+  @media (max-width: 900px) {
+    .button {
+      font-size: 1.3rem;
+      padding: 8px 23px;
+    }
+  }
 }

@@ -64,7 +64,7 @@
   .header__menu-section.on .header__menu-toggle {
     position: absolute;
     top: 50px;
-    right: 48px;
+    right: 65px;
   }
 
   .header__menu-section.on .menu-toggle__one {
@@ -140,8 +140,8 @@
   }
 
   .header__menu-section.on .header__menu-toggle {
-    top: 55px;
-    right: 48px;
+    top: 54px;
+    right: 65px;
   }
 }
 
@@ -149,8 +149,8 @@
 @media (max-width: 640px) {
   /* ----- Menu Toggle ----- */
   .header__menu-section.on .header__menu-toggle {
-    top: 50px;
-    right: 48px;
+    top: 54px;
+    right: 65px;
   }
 }
 
@@ -162,7 +162,7 @@
     font-size: 18px;
   }
   .header__menu-section.on .header__menu-toggle {
-    top: 50px;
-    right: 48px;
+    top: 54px;
+    right: 65px;
   }
 }

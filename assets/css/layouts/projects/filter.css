@@ -87,3 +87,45 @@
 .checkbox:checked + span {
   color: var(--primary-color);
 }
+
+@media (max-width: 700px) {
+  .projects__filter {
+    width: 95%;
+    height: 100%;
+    flex-direction: column;
+    border: none;
+    align-items: flex-start;
+  }
+
+  .filter__icon {
+    font-size: 1.5rem;
+  }
+
+  .filter__text {
+    font-size: 1.2rem;
+  }
+
+  .filter__icon-box {
+    border: 2px solid var(--text-white);
+    border-radius: 9px 9px 0 0;
+    border-bottom: none;
+    height: 4rem;
+  }
+
+  .filter__checkbox {
+    height: 8rem;
+    border: 2px solid var(--text-white);
+    border-radius: 0 9px 9px 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box__checkbox {
+    font-size: 1.2rem;
+  }
+
+  .checkboxs__box {
+    height: 5rem;
+  }
+}

@@ -115,3 +115,26 @@
     margin-bottom: 150px;
   }
 }
+
+@media (max-width: 900px) {
+  .home__span {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .home__title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .home__img-mobile {
+    width: 316px;
+    margin-bottom: 4rem;
+  }
+
+  .home__text {
+    font-size: 1.3rem;
+
+    margin-bottom: 2.9rem;
+  }
+}

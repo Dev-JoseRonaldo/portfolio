@@ -199,3 +199,9 @@
     width: 100%;
   }
 }
+@media (max-width: 900px) {
+  .contact__info {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5rem;
+  }
+}
