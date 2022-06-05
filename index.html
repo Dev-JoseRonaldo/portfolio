@@ -16,34 +16,42 @@
   <body>
     <header id="header" class="header">
       <div class="header__logo">JR</div>
-      <nav class="header__navegation">
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="header__link" href="#">
-              <i class="fa-solid fa-house"></i>
-              Home
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#about">
-              <i class="fa-solid fa-user"></i>
-              Sobre mim
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#projects">
-              <i class="fa-solid fa-laptop-code"></i>
-              Projetos
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#contato">
-              <i class="fa-solid fa-phone"></i>
-              Contato
-            </a>
-          </li>
-        </ul>
-      </nav>
+
+      <div class="header__menu-section">
+        <nav class="header__navegation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">
+                <i class="fa-solid fa-house"></i>
+                Home
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#about">
+                <i class="fa-solid fa-user"></i>
+                Sobre mim
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#projects">
+                <i class="fa-solid fa-laptop-code"></i>
+                Projetos
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#contact">
+                <i class="fa-solid fa-phone"></i>
+                Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__menu-toggle">
+          <div class="menu-toggle__one"></div>
+          <div class="menu-toggle__three"></div>
+        </div>
+      </div>
     </header>
     <main>
       <div class="floating-icon">
@@ -976,6 +984,7 @@
     <script src="./assets/script/show_more.js" type="text/javascript"></script>
     <script src="./assets/script/filter.js" type="text/javascript"></script>
     <script src="./assets/script/send_email.js" type="text/javascript"></script>
+    <script src="./assets/script/toggle.js" type="text/javascript"></script>
 
     <!-- SmtpJS -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>

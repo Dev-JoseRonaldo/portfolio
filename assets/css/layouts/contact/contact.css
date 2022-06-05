@@ -187,7 +187,6 @@
 
   .contact__info {
     width: 100%;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 8rem 5rem;
   }
