@@ -63,7 +63,7 @@
 
   .header__menu-section.on .header__menu-toggle {
     position: absolute;
-    top: 50px;
+    top: 38px;
     right: 65px;
   }
 
@@ -140,29 +140,21 @@
   }
 
   .header__menu-section.on .header__menu-toggle {
-    top: 54px;
+    top: 43px;
     right: 65px;
   }
 }
 
 /* - - - - - Mobile Grande - - - -  */
-@media (max-width: 640px) {
+@media (max-width: 540px) {
   /* ----- Menu Toggle ----- */
   .header__menu-section.on .header__menu-toggle {
-    top: 54px;
-    right: 65px;
+    top: 23px;
+    right: 36px;
   }
 }
 
 /* - - - - - Mobile Pequeno - - - - */
 @media (max-width: 470px) {
   /* ----- Menu Toggle ----- */
-  .header__link {
-    padding: 10px 0;
-    font-size: 18px;
-  }
-  .header__menu-section.on .header__menu-toggle {
-    top: 54px;
-    right: 65px;
-  }
 }

@@ -53,3 +53,14 @@
     margin-bottom: 8rem;
   }
 }
+
+@media (max-width: 540px) {
+  .projects {
+    padding: 2rem;
+  }
+
+  .projects__title {
+    font-size: 2.9rem;
+    margin-bottom: 2.9rem;
+  }
+}

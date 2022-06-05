@@ -157,15 +157,11 @@
   opacity: 1;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .contact-content {
     flex-direction: column;
     justify-content: center;
     gap: 10rem;
-  }
-
-  .contact__title {
-    margin-bottom: 9rem;
   }
 
   .contact__left-side {
@@ -187,7 +183,7 @@
 
   .contact__info {
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
     gap: 8rem 5rem;
   }
 
@@ -199,9 +195,52 @@
     width: 100%;
   }
 }
+
 @media (max-width: 900px) {
   .contact__info {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10rem 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact__info {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 540px) {
+  .contact {
+    padding: 2rem;
+  }
+
+  .contact__subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .contact__title {
+    font-size: 2.9rem;
+    margin-bottom: 7rem;
+  }
+  .contact__info-title {
+    font-size: 2.2rem;
+
+    margin-bottom: 0.9rem;
+  }
+
+  .contact__text {
+    max-width: 100%;
+
+    font-size: 1.3rem;
+
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact__info {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 5rem 3rem;
   }
 }

@@ -23,16 +23,16 @@
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 540px) {
   .button {
-    font-size: 1.6rem;
-    padding: 10px 29px;
+    font-size: 1.3rem;
+    padding: 8px 23px;
   }
-
-  @media (max-width: 900px) {
-    .button {
-      font-size: 1.3rem;
-      padding: 8px 23px;
-    }
+}
+/* - - - - - Mobile Pequeno - - - - */
+@media (max-width: 470px) {
+  .button {
+    font-size: 1.1rem;
+    padding: 7px 19px;
   }
 }

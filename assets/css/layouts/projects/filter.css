@@ -95,6 +95,7 @@
     flex-direction: column;
     border: none;
     align-items: flex-start;
+    margin-bottom: 4rem;
   }
 
   .filter__icon {

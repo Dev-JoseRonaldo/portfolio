@@ -63,7 +63,7 @@
 /* Responsividade */
 @media (max-width: 1240px) {
   .about__skill-container {
-    min-width: 430px;
+    min-width: 450px;
     gap: 0.8rem;
   }
 }
@@ -72,8 +72,10 @@
   .about__skill-container {
     gap: 1rem;
   }
+}
 
-  .skill-container__title {
-    display: none;
+@media (max-width: 540px) {
+  .about__skill-container {
+    min-width: 300px;
   }
 }
