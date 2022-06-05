@@ -111,7 +111,10 @@
   }
   */
 }
-@media (max-width: 470px) {
+@media (max-width: 480px) {
+  .about {
+    padding: 1rem;
+  }
   .about__text {
     font-size: 1.3rem;
   }

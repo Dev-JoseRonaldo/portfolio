@@ -44,3 +44,26 @@
   color: var(--primary-color);
   font-weight: 500;
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 3.2rem 1rem 0.3rem;
+  }
+
+  .list__link {
+    color: var(--text-white);
+    font-size: 1rem;
+  }
+
+  .footer__list {
+    gap: 3rem;
+  }
+
+  .footer__title {
+    font-size: 2.2rem;
+  }
+
+  .footer__copy {
+    font-size: 0.9rem;
+  }
+}

@@ -79,3 +79,8 @@
     min-width: 300px;
   }
 }
+@media (max-width: 480px) {
+  .about__skill-container {
+    min-width: 200px;
+  }
+}

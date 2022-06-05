@@ -176,3 +176,9 @@
     margin-bottom: 2.2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .home {
+    padding: 1rem;
+  }
+}

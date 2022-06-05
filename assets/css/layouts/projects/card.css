@@ -185,3 +185,9 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 400px) {
+  .items__box:hover .project__buttons {
+    width: 80%;
+  }
+}

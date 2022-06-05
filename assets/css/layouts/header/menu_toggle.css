@@ -141,7 +141,7 @@
 
   .header__menu-section.on .header__menu-toggle {
     top: 43px;
-    right: 65px;
+    right: 49px;
   }
 }
 
@@ -150,11 +150,18 @@
   /* ----- Menu Toggle ----- */
   .header__menu-section.on .header__menu-toggle {
     top: 23px;
-    right: 36px;
+    right: 22px;
   }
 }
 
 /* - - - - - Mobile Pequeno - - - - */
-@media (max-width: 470px) {
-  /* ----- Menu Toggle ----- */
+@media (max-width: 480px) {
+  .header__menu-toggle {
+    width: 22px;
+    height: 15px;
+  }
+  .header__menu-section.on .header__menu-toggle {
+    top: 13px;
+    right: 11px;
+  }
 }
