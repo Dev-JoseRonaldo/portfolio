@@ -3,6 +3,8 @@ const inputs = document.querySelector('form')
 
 btn.addEventListener('click', function (e) {
   e.preventDefault()
+
+  //armazenando todos os valores dos inputs em variáveis
   var name = document.getElementById('name').value
   var email = document.getElementById('email').value
   var subject = document.getElementById('subject').value

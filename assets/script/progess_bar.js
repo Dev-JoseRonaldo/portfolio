@@ -1,3 +1,4 @@
+// array estilo JSON para armazenar dados das skills
 const skills = [
   {
     nome: 'HTML',
@@ -36,6 +37,7 @@ const skills = [
 const about = document.querySelector('.about')
 const container = document.querySelector('.about__skill-container')
 
+// Adiciona as skills dinamicamento no HTML
 for (let i = 0; i < skills.length; i++) {
   container.innerHTML += `
          <div class="skill__progress" id="skill__progress-${i}">
@@ -50,6 +52,7 @@ for (let i = 0; i < skills.length; i++) {
         `
 }
 
+// Ativa a animação das barras de skill atraves da posição da tela pelo evento de scroll
 window.addEventListener('scroll', function checkPos() {
   const sectionPos = about.getBoundingClientRect().top
   const screenPos = window.screen.height
