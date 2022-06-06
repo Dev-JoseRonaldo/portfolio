@@ -160,8 +160,13 @@
     width: 22px;
     height: 15px;
   }
+
+  .header__menu-section.on .menu-toggle__three {
+    transform: rotate(-45deg) translate(4.5px, -4px);
+  }
+
   .header__menu-section.on .header__menu-toggle {
-    top: 13px;
+    top: 23px;
     right: 11px;
   }
 }

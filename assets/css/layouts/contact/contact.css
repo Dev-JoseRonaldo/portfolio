@@ -99,6 +99,12 @@
   transition: all 0.2s ease;
 }
 
+.socials__icons--disable:hover {
+  cursor: default;
+  opacity: 0.9;
+  color: var(--text-white);
+  transform: scale(1);
+}
 /* Form */
 .contact__form {
   width: 100%;

@@ -1,5 +1,6 @@
 .items__box {
   width: 100%;
+  max-width: 650px;
   height: 443px;
   /* max-width: 300px;*/
   display: none;
@@ -78,6 +79,8 @@
 
 .stack__icon {
   font-size: 2.4rem;
+  width: 2.2rem;
+  fill: var(--text-white);
 }
 
 .project__date-box {
