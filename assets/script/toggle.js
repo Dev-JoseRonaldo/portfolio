@@ -1,4 +1,4 @@
-let show = false
+let show = true
 
 const menuSection = document.querySelector('.header__menu-section')
 const menuToggle = document.querySelector('.header__menu-toggle')
@@ -15,7 +15,6 @@ menuToggle.addEventListener('click', () => {
 })
 
 /* apenas Esconde o menu mobile (se tiver visível) e ativa a rolagem da página (se tiver desativada), ao clickar nos links de navegação  */
-
 for (let i = 0; i < buttonsToggle.length; i++) {
   buttonsToggle[i].addEventListener('click', () => {
     document.body.style.overflow = 'initial'
