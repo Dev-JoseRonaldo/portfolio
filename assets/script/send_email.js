@@ -42,10 +42,10 @@ btn.addEventListener('click', function (e) {
   if (checkInputs()) {
     Email.send({
       Host: 'smtp.elasticemail.com',
-      Username: 'dev.joseronaldo@gmail.com',
-      Password: '90C0578FDC10A0D7EE275F99480FB80B8261',
-      To: 'dev.joseronaldo@gmail.com',
-      From: 'dev.joseronaldo@gmail.com',
+      Username: 'joseronaldo1d2013@gmail.com',
+      Password: '53907AC5D4C934671C7539A0181501E13B39',
+      To: 'joseronaldo1d2013@gmail.com',
+      From: 'joseronaldo1d2013@gmail.com',
       Subject: subject,
       Body: `Name: ${name} <br/> 
       Email: ${email} <br/> <br/> 
