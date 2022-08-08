@@ -1,0 +1,42 @@
+.pulse-whatsapp {
+  position: relative;
+}
+
+.pulse-whatsapp::before,
+.pulse-whatsapp::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  border: 2px solid #44bd32;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+}
+
+.pulse-whatsapp::after {
+  width: calc(100% + 22px);
+  height: calc(100% + 22px);
+}
+
+.pulse-whatsapp:hover.pulse-whatsapp::before,
+.pulse-whatsapp:hover.pulse-whatsapp::after {
+  animation: none;
+  width: 0;
+  height: 0;
+  border: 0;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
