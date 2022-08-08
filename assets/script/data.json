@@ -1,0 +1,128 @@
+{ 
+  "data":{
+    "projects":[
+      {
+        "id": 0,
+        "stack":["react", "css", "javascript", "typescript"],
+        "img_url":"./assets/img/projects/projeto_imc.PNG",
+        "title": "Calculadora IMC",
+        "description": "Calculadora IMC é meu primeiro projeto feito com React e Typescript. Consiste em uma página simples responsiva, para o cálculo do IMC. Com ele foi possível desenvolver vários conhecimentos básicos de React e Typescript.",
+        "deploy_url": "https://joseronaldo-imc.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/calculadora-imc-react",
+        "date": "23/05/2022",
+        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-js-square"]
+      },
+      {
+        "id": 1,
+        "stack":["html", "css", "javascript"],
+        "img_url":"./assets/img/projects/projeto_loteria.jpg",
+        "title": "Loteria",
+        "description": "Loteria é uma aplicação web que mostra os resultados de 6 Loterias diferentes, consumindo uma api REST via axios, mudando o número do sorteio, a data do sorteio e os números sorteados de acordo com a loteria selecionada.",
+        "deploy_url": "https://joseronaldo-loteria.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/loteria",
+        "date": "17/05/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
+      },
+      {
+        "id": 2,
+        "stack":["html", "css", "javascript","bootstrap"],
+        "img_url":"./assets/img/projects/projeto_prestartse.jpg",
+        "title": "Hackathon",
+        "description": "Esse é um site criado para inscrição e divulgação dos vencedores da Hackathon Pre-Startse. Essa Hackathon foi promovida para os alunos da Tech Academy - Startse , antes do curso comerçar.",
+        "deploy_url": "https://prestartse.netlify.app",
+        "github_url":"https://github.com/Dev-JoseRonaldo/pre-startse",
+        "date": "20/04/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
+      },
+      {
+        "id": 3,
+        "stack":["html", "css", "javascript","bootstrap"],
+        "img_url":"./assets/img/projects/projeto_jr_games.jpg",
+        "title": "JR Games",
+        "description": "JR Games é um site criado para a exposição dos meus jogos desenvolvidos usando HTML CSS e Javascript. Consiste em um site multipages, onde o usuário consegue jogar os games. OBS: Genius é o único game disponível no momento!",
+        "deploy_url": "https://joseronaldo-jrgames.netlify.app/games/genius.html",
+        "github_url":"https://github.com/Dev-JoseRonaldo/jr-games",
+        "date": "12/03/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
+      },
+      {
+        "id": 4,
+        "stack":["html", "css", "javascript","bootstrap"],
+        "img_url":"./assets/img/projects/projeto_netflix.jpg",
+        "title": "Clone Netflix",
+        "description": "Netflix Interface é um Projeto desenvolvido durante o bootcamp : HTML Web Developer, promovido pela Digital Innovation One. Consiste em uma recriação responsiva da interface da Netflix.",
+        "deploy_url": "https://joseronaldo-netflix.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/netflix-interface",
+        "date": "07/05/2021",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
+      },
+      {
+        "id": 5,
+        "stack":["html", "css", "javascript"],
+        "img_url":"./assets/img/projects/projeto_speed_run.jpg",
+        "title": "Speed Run",
+        "description": "Esse é um game desenvolvido para a conclusão do desafio da sétima semana do bootcamp fullstack promovido pela Startse - Tech Academy. Consiste em um game, no estilo speed run, onde tivemos 2 semanas para concluí-lo.",
+        "deploy_url": "https://joseronaldo-speedrun.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/speed-run",
+        "date": "19/06/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
+      },
+      {
+        "id": 6,
+        "stack":["html", "css", "javascript"],
+        "img_url":"./assets/img/projects/projeto_genius.jpg",
+        "title": "Genius",
+        "description": "Essa é uma recriação do famoso jogo 'genius'. Acerte a sequência de cores! Com o clássico Genius, você pode treinar a sua memória até onde conseguir chegar. Aperte as cores que piscarem na ordem correta.",
+        "deploy_url": "https://joseronaldo-jrgames.netlify.app/games/genius.html",
+        "github_url":"https://github.com/Dev-JoseRonaldo/jr-games",
+        "date": "12/03/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
+      },
+      {
+        "id": 7,
+        "stack":["html", "css", "javascript","bootstrap"],
+        "img_url":"./assets/img/projects/projeto_landing_page.jpg",
+        "title": "Landing Page",
+        "description": "(Em desenvolvimento) Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis illo mollitia voluptatem, quisquam in maiores sapiente ex eaque recusandae animi ipsam, omnis facilis cum dicta voluptate numquam dolores distinctio.",
+        "deploy_url": "https://joseronaldo-landing-page.netlify.app",
+        "github_url":"https://github.com/Dev-JoseRonaldo/landing-page",
+        "date": "09/04/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
+      },      
+      {
+        "id": 8,
+        "stack":["html", "css"],
+        "img_url":"./assets/img/projects/projeto_rocket_blog.jpg",
+        "title": "Rocket Blog",
+        "description": "(Em desenvolvimento) Rocket Blog é um desafio, promovido por Rocketseat.com, que tem como objetivo desenvolver uma pagina de notícias, responsivo. O maior objetivo desse desafio é seguir fielmente todo o layout disponibilizado e deixa-lo totalmente responsivo.",
+        "deploy_url": "https://joseronaldo-blog.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/Rocket-Blog",
+        "date": "28/03/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt"]
+      },
+      {
+        "id": 9,
+        "stack":["html", "css", "javascript"],
+        "img_url":"./assets/img/projects/projeto_rocket_coffee.jpg",
+        "title": "Rocket Coffee",
+        "description": "Rocket Coffee é um desafio, promovido por Rocketseat.com, que tem como objetivo desenvolver uma homepage, responsivo, para uma marca de café.O maior objetivo desse desafio é seguir fielmente todo o layout disponibilizado e deixa-lo totalmente responsivo.",
+        "deploy_url": "https://joseronaldo-rocketcoffee.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/rocket-coffee",
+        "date": "10/03/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
+      },
+      {
+        "id": 10,
+        "stack":["html", "css", "javascript"],
+        "img_url":"./assets/img/projects/projeto_originsix.jpg",
+        "title": "Origin Six",
+        "description": "OriginSix é uma página institucional no formato One Page, responsiva, a para usar em diversos tipos de micro, pequena e média empresas.Projeto desenvolvido durante a 6° edição da Next Level Week da Rocketseat : Mission - Origin.",
+        "deploy_url": "https://joseronaldo-originsix.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/nlw-together-Origin",
+        "date": "24/06/2021",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
+      }
+    ]
+  }
+}
+
