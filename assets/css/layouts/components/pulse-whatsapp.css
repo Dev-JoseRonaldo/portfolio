@@ -10,7 +10,7 @@
   height: calc(100% + 40px);
   border: 2px solid #44bd32;
   border-radius: 50%;
-  animation: animate 1.5s linear infinite;
+  animation: animate 2.5s linear infinite;
 }
 
 .pulse-whatsapp::after {
@@ -31,12 +31,20 @@
     transform: scale(0.5);
     opacity: 0;
   }
-  50% {
+  35% {
     transform: scale(0.8);
     opacity: 0.5;
   }
-  100% {
+  70% {
     transform: scale(1);
+    opacity: 0;
+  }
+  71% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.5);
     opacity: 0;
   }
 }
