@@ -10,7 +10,7 @@
         "deploy_url": "https://joseronaldo-imc.netlify.app/",
         "github_url":"https://github.com/Dev-JoseRonaldo/calculadora-imc-react",
         "date": "23/05/2022",
-        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-js-square"]
+        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
       },
       {
         "id": 1,
