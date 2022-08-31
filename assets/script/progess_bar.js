@@ -10,7 +10,7 @@ const skills = [
   },
   {
     nome: 'BOOTSTRAP',
-    percent: 90
+    percent: 80
   },
   {
     nome: 'JAVASCRIPT',
@@ -18,19 +18,23 @@ const skills = [
   },
   {
     nome: 'TYPESCRIPT',
-    percent: 50
+    percent: 70
   },
   {
     nome: 'SASS',
-    percent: 50
-  },
-  {
-    nome: 'REACT',
-    percent: 40
+    percent: 70
   },
   {
     nome: 'TAILWIND',
-    percent: 20
+    percent: 70
+  },
+  {
+    nome: 'REACT JS',
+    percent: 65
+  },
+  {
+    nome: 'NEXT JS',
+    percent: 40
   }
 ]
 

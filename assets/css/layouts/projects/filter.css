@@ -88,7 +88,7 @@
   color: var(--primary-color);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 680px) {
   .projects__filter {
     width: 95%;
     height: 100%;
@@ -127,7 +127,7 @@
   }
 
   .checkboxs__box {
-    height: 5rem;
+    height: 7rem;
     padding: 0 1rem;
   }
 }
@@ -153,7 +153,6 @@
   .checkboxs__box {
     height: 10rem;
     padding: 0 3rem;
-    gap: 0;
   }
   .box__checkbox {
     width: 80px;
