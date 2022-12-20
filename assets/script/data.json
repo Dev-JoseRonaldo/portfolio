@@ -4,6 +4,17 @@
       {
         "id": 0,
         "stack":["react", "css", "javascript", "typescript"],
+        "img_url":"./assets/img/projects/projeto_fadeapp.jpg",
+        "title": "Fadeapp",
+        "description": "Landing page para divulgar um app que é seu parceiro durante os exercícios físicos, oferecendo funcionalidades para deixar as atividades mais divertidas e descontraidas durante o seu treino. Criada usando Next.js, Tailwindcss, Typescript, testes unitários com Jest e React Testing Library, Typescript, GraphQL, etc.",
+        "deploy_url": "https://fadeapp.vercel.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/fadeapp",
+        "date": "10/12/2022",
+        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
+      },
+      {
+        "id": 1,
+        "stack":["react", "css", "javascript", "typescript"],
         "img_url":"./assets/img/projects/projeto_imc.PNG",
         "title": "Calculadora IMC",
         "description": "Calculadora IMC é meu primeiro projeto feito com React e Typescript. Consiste em uma página simples responsiva, para o cálculo do IMC. Com ele foi possível desenvolver vários conhecimentos básicos de React e Typescript.",
@@ -13,7 +24,7 @@
         "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
       },
       {
-        "id": 1,
+        "id": 2,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_loteria.jpg",
         "title": "Loteria",
@@ -24,7 +35,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
-        "id": 2,
+        "id": 3,
         "stack":["html", "css", "javascript","bootstrap"],
         "img_url":"./assets/img/projects/projeto_prestartse.jpg",
         "title": "Hackathon",
@@ -35,7 +46,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
       },
       {
-        "id": 3,
+        "id": 4,
         "stack":["html", "css", "javascript","bootstrap"],
         "img_url":"./assets/img/projects/projeto_jr_games.jpg",
         "title": "JR Games",
@@ -46,7 +57,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
       },
       {
-        "id": 4,
+        "id": 5,
         "stack":["html", "css", "javascript","bootstrap"],
         "img_url":"./assets/img/projects/projeto_netflix.jpg",
         "title": "Clone Netflix",
@@ -57,7 +68,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
       },
       {
-        "id": 5,
+        "id": 6,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_speed_run.jpg",
         "title": "Speed Run",
@@ -68,7 +79,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
-        "id": 6,
+        "id": 7,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_genius.jpg",
         "title": "Genius",
@@ -79,7 +90,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
-        "id": 7,
+        "id": 8,
         "stack":["html", "css", "javascript","bootstrap"],
         "img_url":"./assets/img/projects/projeto_landing_page.jpg",
         "title": "Landing Page",
@@ -90,7 +101,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
       },      
       {
-        "id": 8,
+        "id": 9,
         "stack":["html", "css"],
         "img_url":"./assets/img/projects/projeto_rocket_blog.jpg",
         "title": "Rocket Blog",
@@ -101,7 +112,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt"]
       },
       {
-        "id": 9,
+        "id": 10,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_rocket_coffee.jpg",
         "title": "Rocket Coffee",
@@ -112,7 +123,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
-        "id": 10,
+        "id": 11,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_originsix.jpg",
         "title": "Origin Six",
