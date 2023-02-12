@@ -1,24 +1,32 @@
 // array estilo JSON para armazenar dados das skills
 const skills = [
   {
-    nome: 'HTML',
+    nome: 'HTML / CSS',
     percent: 95
-  },
-  {
-    nome: 'CSS',
-    percent: 95
-  },
-  {
-    nome: 'BOOTSTRAP',
-    percent: 80
   },
   {
     nome: 'JAVASCRIPT',
-    percent: 80
+    percent: 90
   },
   {
     nome: 'TYPESCRIPT',
+    percent: 80
+  },
+  {
+    nome: 'REACT JS',
+    percent: 90
+  },
+  {
+    nome: 'NEXT JS',
     percent: 70
+  },
+  {
+    nome: 'REACT NATIVE',
+    percent: 40
+  },
+  {
+    nome: 'NODE JS',
+    percent: 30
   },
   {
     nome: 'SASS',
@@ -26,15 +34,23 @@ const skills = [
   },
   {
     nome: 'TAILWIND',
+    percent: 90
+  },
+  {
+    nome: 'STYLED-COMPONENTS',
     percent: 70
   },
   {
-    nome: 'REACT JS',
-    percent: 65
+    nome: 'BOOTSTRAP',
+    percent: 80
   },
   {
-    nome: 'NEXT JS',
-    percent: 40
+    nome: 'STORYBOOK',
+    percent: 70
+  },
+  {
+    nome: 'JEST / REACT TESTING LIBRARY',
+    percent: 70
   }
 ]
 
