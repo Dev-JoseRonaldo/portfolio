@@ -15,6 +15,9 @@
     ></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
 
+    <!-- Animate Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Pessoal Portfólio</title>
   </head>
 
@@ -70,7 +73,7 @@
         </a>
       </div>
 
-      <section id="home" class="home">
+      <section id="home" class="home" data-aos="fade-up">
         <div class="home__left-side">
           <h2 class="home__span">JOSE RONALDO</h2>
           <h1 class="home__title">FRONTEND DEVELOPER</h1>
@@ -102,8 +105,8 @@
 
       <section id="about" class="about">
         <div class="about__left-side">
-          <h2 class="about__title">Sobre Mim</h2>
-          <p class="about__text">
+          <h2 class="about__title" data-aos="fade-up">Sobre Mim</h2>
+          <p class="about__text" data-aos="fade-up">
             Sou técnico em programação de jogos e aplicativos, atualmente
             cursando bacharelado em Sistemas de informação pela UFPE, e atuando
             em projetos web como Desenvolvedor Frontend. Minha missão é
@@ -123,14 +126,14 @@
             e adversidades, estou sempre aberto a novas ideias e receptível a
             críticas construtivas.
           </p>
-          <div class="about__btn-container">
+          <div class="about__btn-container" data-aos="fade-up">
             <a class="button button--animate" href="#contact">
               Contact me
               <span class="button__span"></span>
             </a>
             <a
               class="button button--animate"
-              href="https://drive.google.com/file/d/1JCX8Hl9GKNctAOpkGYQgkGtgxC2p4za_/view?usp=share_link"
+              href="https://drive.google.com/file/d/1ENG-eoxtTjLgd4FiLri-y-aL66t93pSD/view?usp=share_link"
               target="blank"
             >
               Download CV
@@ -139,7 +142,7 @@
           </div>
         </div>
 
-        <div class="about__right-side">
+        <div class="about__right-side" data-aos="fade-up">
           <div class="about__skill-container">
             <h1 class="skill-container__title">Habilidades</h1>
           </div>
@@ -147,9 +150,9 @@
       </section>
 
       <section id="projects" class="projects">
-        <h2 class="projects__title">Alguns Projetos</h2>
+        <h2 class="projects__title" data-aos="fade-up">Alguns Projetos</h2>
 
-        <div class="projects__filter">
+        <div class="projects__filter" data-aos="fade-up">
           <div class="filter__icon-box">
             <i class="filter__icon fa-solid fa-filter"></i>
             <p class="filter__text">Filter</p>
@@ -251,6 +254,7 @@
         <a
           id="load-more"
           class="button projects__button button--animate button--small"
+          data-aos="fade-up"
         >
           Carregar mais
           <span class="button__span button__span"></span>
@@ -266,16 +270,18 @@
       </section>
 
       <section id="contact" class="contact">
-        <div class="contact__title-box">
+        <div class="contact__title-box" data-aos="fade-up">
           <h6 class="contact__subtitle">Tem um projeto em mente?</h6>
           <h2 class="contact__title">Entre em contato!</h2>
         </div>
 
         <div class="contact-content">
           <div class="contact__left-side">
-            <h3 class="contact__info-title">Fale comigo!</h3>
-            <p class="contact__text">Será um prazer Trabalhar com você!</p>
-            <div class="contact__info">
+            <h3 class="contact__info-title" data-aos="fade-up">Fale comigo!</h3>
+            <p class="contact__text" data-aos="fade-up">
+              Será um prazer Trabalhar com você!
+            </p>
+            <div class="contact__info" data-aos="fade-up">
               <div class="info-box">
                 <i class="info__icon fa-solid fa-phone"></i>
                 <p class="info__text">
@@ -325,7 +331,7 @@
               </div>
             </div>
           </div>
-          <div class="contact__right-side">
+          <div class="contact__right-side" data-aos="fade-up">
             <form class="contact__form" method="post">
               <div class="form__first-line">
                 <input
@@ -415,5 +421,11 @@
 
     <!-- SmtpJS : Biblioteca js para enivar mesagem para o email-->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Animate - Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1500 })
+    </script>
   </body>
 </html>

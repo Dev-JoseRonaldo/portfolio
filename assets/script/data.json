@@ -6,7 +6,7 @@
         "stack":["react", "css", "javascript", "typescript"],
         "img_url":"./assets/img/projects/projeto_fadeapp.jpg",
         "title": "Fadeapp",
-        "description": "Landing page para divulgar um app que é seu parceiro durante os exercícios físicos, oferecendo funcionalidades para deixar as atividades mais divertidas e descontraidas durante o seu treino. Criada usando Next.js, Tailwindcss, Typescript, testes unitários com Jest e React Testing Library, Typescript, GraphQL, etc.",
+        "description": "Landing page para divulgar um app que é seu parceiro durante os exercícios físicos, oferecendo funcionalidades para deixar as atividades mais divertidas e descontraidas durante o seu treino.",
         "deploy_url": "https://fadeapp.vercel.app/",
         "github_url":"https://github.com/Dev-JoseRonaldo/fadeapp",
         "date": "10/12/2022",
