@@ -3,35 +3,35 @@
     "projects":[
       {
         "id": 0,
-        "stack":["react", "css", "javascript", "typescript"],
-        "img_url":"./assets/img/projects/projeto_fadeapp.jpg",
-        "title": "Fadeapp",
-        "description": "Landing page para divulgar um app que é seu parceiro durante os exercícios físicos, oferecendo funcionalidades para deixar as atividades mais divertidas e descontraidas durante o seu treino.",
-        "deploy_url": "https://fadeapp.vercel.app/",
-        "github_url":"https://github.com/Dev-JoseRonaldo/fadeapp",
-        "date": "10/12/2022",
-        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
+        "stack":["html", "css", "javascript","bootstrap"],
+        "img_url":"./assets/img/projects/projeto_greentech.png",
+        "title": "GreenTech",
+        "description": "Esse projeto foi desenvolvido para o Hackathon do Tech Academy - Startse. Tem como objetivo apresentar a solução para o problema de desperdício da produção no Agro.",
+        "deploy_url": "https://m-abdias.github.io/GreenTech/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/GreenTech",
+        "date": "29/07/2022",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
       },
       {
         "id": 1,
-        "stack":["react", "css", "javascript", "typescript"],
-        "img_url":"./assets/img/projects/projeto_imc.PNG",
-        "title": "Calculadora IMC",
-        "description": "Calculadora IMC é meu primeiro projeto feito com React e Typescript. Consiste em uma página simples responsiva, para o cálculo do IMC. Com ele foi possível desenvolver vários conhecimentos básicos de React e Typescript.",
-        "deploy_url": "https://joseronaldo-imc.netlify.app/",
-        "github_url":"https://github.com/Dev-JoseRonaldo/calculadora-imc-react",
-        "date": "23/05/2022",
-        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
+        "stack":["python"],
+        "img_url":"./assets/img/projects/projeto_a_fuga_de_filo.png",
+        "title": "A fuga de Filó",
+        "description": "Game 2D desenvolvido utilizando a linguagem Python, e a biblioteca pygame. Esse game foi desenvolvido em equipe, utilizando metodologias ágeis, como projeto final da disciplina programação 1.",
+        "deploy_url": "https://github.com/Dev-JoseRonaldo/projeto-p1-equipe7",
+        "github_url":"https://github.com/Dev-JoseRonaldo/projeto-p1-equipe7",
+        "date": "08/05/2023",
+        "icon_stack": ["stack__icon fa-brands fa-python"]
       },
       {
         "id": 2,
         "stack":["html", "css", "javascript"],
-        "img_url":"./assets/img/projects/projeto_loteria.jpg",
-        "title": "Loteria",
-        "description": "Loteria é uma aplicação web que mostra os resultados de 6 Loterias diferentes, consumindo uma api REST via axios, mudando o número do sorteio, a data do sorteio e os números sorteados de acordo com a loteria selecionada.",
-        "deploy_url": "https://joseronaldo-loteria.netlify.app/",
-        "github_url":"https://github.com/Dev-JoseRonaldo/loteria",
-        "date": "17/05/2022",
+        "img_url":"./assets/img/projects/projeto_speed_run.jpg",
+        "title": "Speed Run",
+        "description": "Esse é um game desenvolvido para a conclusão do desafio da sétima semana do bootcamp fullstack promovido pela Startse - Tech Academy. Consiste em um game, no estilo speed run, onde tivemos 2 semanas para concluí-lo.",
+        "deploy_url": "https://joseronaldo-speedrun.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/speed-run",
+        "date": "19/06/2022",
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
@@ -58,28 +58,17 @@
       },
       {
         "id": 5,
-        "stack":["html", "css", "javascript","bootstrap"],
-        "img_url":"./assets/img/projects/projeto_netflix.jpg",
-        "title": "Clone Netflix",
-        "description": "Netflix Interface é um Projeto desenvolvido durante o bootcamp : HTML Web Developer, promovido pela Digital Innovation One. Consiste em uma recriação responsiva da interface da Netflix.",
-        "deploy_url": "https://joseronaldo-netflix.netlify.app/",
-        "github_url":"https://github.com/Dev-JoseRonaldo/netflix-interface",
-        "date": "07/05/2021",
-        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
+        "stack":["python"],
+        "img_url":"./assets/img/projects/projeto_algoritmo_dijkstra.png",
+        "title": "Algoritmo Dijkstr",
+        "description": "Projeto de Algorimos que implementa o algortimo Dijkstra em uma base de dados de uma rede direcionada e ponderada que representa a rede neural do Caenorhabditis elegans ou C. Elegans, um verme nematódeo que foi de extrema importância no estudo de exploração das doenças humanas.",
+        "deploy_url": "https://github.com/Dev-JoseRonaldo/projeto-algoritmo-Dijkstra",
+        "github_url":"https://github.com/Dev-JoseRonaldo/projeto-algoritmo-Dijkstra",
+        "date": "27/08/2023",
+        "icon_stack": ["stack__icon fa-brands fa-python"]
       },
       {
         "id": 6,
-        "stack":["html", "css", "javascript"],
-        "img_url":"./assets/img/projects/projeto_speed_run.jpg",
-        "title": "Speed Run",
-        "description": "Esse é um game desenvolvido para a conclusão do desafio da sétima semana do bootcamp fullstack promovido pela Startse - Tech Academy. Consiste em um game, no estilo speed run, onde tivemos 2 semanas para concluí-lo.",
-        "deploy_url": "https://joseronaldo-speedrun.netlify.app/",
-        "github_url":"https://github.com/Dev-JoseRonaldo/speed-run",
-        "date": "19/06/2022",
-        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
-      },
-      {
-        "id": 7,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_genius.jpg",
         "title": "Genius",
@@ -90,7 +79,29 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
+        "id": 7,
+        "stack":["html", "css", "javascript"],
+        "img_url":"./assets/img/projects/projeto_originsix.jpg",
+        "title": "Origin Six",
+        "description": "OriginSix é uma página institucional no formato One Page, responsiva, a para usar em diversos tipos de micro, pequena e média empresas.Projeto desenvolvido durante a 6° edição da Next Level Week da Rocketseat : Mission - Origin.",
+        "deploy_url": "https://joseronaldo-originsix.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/nlw-together-Origin",
+        "date": "24/06/2021",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
+      },
+      {
         "id": 8,
+        "stack":["react", "css", "javascript", "typescript"],
+        "img_url":"./assets/img/projects/projeto_imc.PNG",
+        "title": "Calculadora IMC",
+        "description": "Calculadora IMC é meu primeiro projeto feito com React e Typescript. Consiste em uma página simples responsiva, para o cálculo do IMC. Com ele foi possível desenvolver vários conhecimentos básicos de React e Typescript.",
+        "deploy_url": "https://joseronaldo-imc.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/calculadora-imc-react",
+        "date": "23/05/2022",
+        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
+      },
+      {
+        "id": 9,
         "stack":["html", "css", "javascript","bootstrap"],
         "img_url":"./assets/img/projects/projeto_landing_page.jpg",
         "title": "Landing Page",
@@ -101,7 +112,7 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
       },      
       {
-        "id": 9,
+        "id": 10,
         "stack":["html", "css"],
         "img_url":"./assets/img/projects/projeto_rocket_blog.jpg",
         "title": "Rocket Blog",
@@ -112,7 +123,18 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt"]
       },
       {
-        "id": 10,
+        "id": 11,
+        "stack":["react", "css", "javascript", "typescript"],
+        "img_url":"./assets/img/projects/projeto_fadeapp.jpg",
+        "title": "Fadeapp",
+        "description": "Landing page para divulgar um app que é seu parceiro durante os exercícios físicos, oferecendo funcionalidades para deixar as atividades mais divertidas e descontraidas durante o seu treino.",
+        "deploy_url": "https://fadeapp.vercel.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/fadeapp",
+        "date": "10/12/2022",
+        "icon_stack": ["stack__icon fa-brands fa-react","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","typescript"]
+      },
+      {
+        "id": 12,
         "stack":["html", "css", "javascript"],
         "img_url":"./assets/img/projects/projeto_rocket_coffee.jpg",
         "title": "Rocket Coffee",
@@ -123,14 +145,25 @@
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       },
       {
-        "id": 11,
+        "id": 13,
+        "stack":["html", "css", "javascript","bootstrap"],
+        "img_url":"./assets/img/projects/projeto_netflix.jpg",
+        "title": "Clone Netflix",
+        "description": "Netflix Interface é um Projeto desenvolvido durante o bootcamp : HTML Web Developer, promovido pela Digital Innovation One. Consiste em uma recriação responsiva da interface da Netflix.",
+        "deploy_url": "https://joseronaldo-netflix.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/netflix-interface",
+        "date": "07/05/2021",
+        "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square","stack__icon fa-brands fa-bootstrap"]
+      },
+      {
+        "id": 14,
         "stack":["html", "css", "javascript"],
-        "img_url":"./assets/img/projects/projeto_originsix.jpg",
-        "title": "Origin Six",
-        "description": "OriginSix é uma página institucional no formato One Page, responsiva, a para usar em diversos tipos de micro, pequena e média empresas.Projeto desenvolvido durante a 6° edição da Next Level Week da Rocketseat : Mission - Origin.",
-        "deploy_url": "https://joseronaldo-originsix.netlify.app/",
-        "github_url":"https://github.com/Dev-JoseRonaldo/nlw-together-Origin",
-        "date": "24/06/2021",
+        "img_url":"./assets/img/projects/projeto_loteria.jpg",
+        "title": "Loteria",
+        "description": "Loteria é uma aplicação web que mostra os resultados de 6 Loterias diferentes, consumindo uma api REST via axios, mudando o número do sorteio, a data do sorteio e os números sorteados de acordo com a loteria selecionada.",
+        "deploy_url": "https://joseronaldo-loteria.netlify.app/",
+        "github_url":"https://github.com/Dev-JoseRonaldo/loteria",
+        "date": "17/05/2022",
         "icon_stack": ["stack__icon fa-brands fa-html5","stack__icon fa-brands fa-css3-alt","stack__icon fa-brands fa-js-square"]
       }
     ]
