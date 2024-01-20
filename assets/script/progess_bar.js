@@ -5,12 +5,24 @@ const skills = [
     percent: 95
   },
   {
-    nome: 'JAVASCRIPT',
+    nome: 'JAVASCRIPT/TYPESCRIPT',
     percent: 90
   },
   {
-    nome: 'TYPESCRIPT',
+    nome: 'PYTHON',
     percent: 80
+  },
+  {
+    nome: 'JAVA',
+    percent: 50
+  },
+  {
+    nome: 'SPRING BOOT',
+    percent: 50
+  },
+  {
+    nome: 'SQL',
+    percent: 70
   },
   {
     nome: 'REACT JS',
@@ -18,19 +30,11 @@ const skills = [
   },
   {
     nome: 'NEXT JS',
-    percent: 70
-  },
-  {
-    nome: 'REACT NATIVE',
-    percent: 40
-  },
-  {
-    nome: 'NODE JS',
-    percent: 30
+    percent: 80
   },
   {
     nome: 'SASS',
-    percent: 70
+    percent: 90
   },
   {
     nome: 'TAILWIND',
@@ -42,7 +46,7 @@ const skills = [
   },
   {
     nome: 'BOOTSTRAP',
-    percent: 80
+    percent: 70
   },
   {
     nome: 'STORYBOOK',
@@ -51,8 +55,21 @@ const skills = [
   {
     nome: 'JEST / REACT TESTING LIBRARY',
     percent: 70
+  },
+  {
+    nome: 'NODE JS',
+    percent: 30
   }
 ]
+
+/* ordenar por percentual
+skills.sort(function(a, b) {
+  if(a.percent > b.percent) {
+    return -1;
+  } else {
+    return true;
+  }
+});*/
 
 const about = document.querySelector('.about')
 const container = document.querySelector('.about__skill-container')
